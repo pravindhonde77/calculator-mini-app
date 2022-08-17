@@ -1,0 +1,60 @@
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: teal;
+}
+#calculator{
+    height: 500px;
+    width: 400px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 
+    0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    padding: 40px;
+}
+#display{
+    height: 15%;
+    width: 90%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px
+     -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+     margin: auto;
+     font-size: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#keyboard{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,80px);
+    gap: 10px;
+    margin-top: 20px;
+}
+#keyboard>div{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, 
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    font-size: 25px;
+    font-weight:bold;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+#keyboard>div:hover{
+    background-color: teal;
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+</style>
